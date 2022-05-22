@@ -1,0 +1,30 @@
+{
+  "name": "chat-bot",
+  "version": "1.0.0",
+  "description": "Twitch chatbot build in node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trev-of-ev/trev-bot.git"
+  },
+  "keywords": [
+    "Twitch",
+    "node.js",
+    "chat",
+    "bot"
+  ],
+  "author": "Trevor_Guinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trev-of-ev/trev-bot/issues"
+  },
+  "homepage": "https://github.com/trev-of-ev/trev-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "tmi.js": "^1.8.5"
+  }
+}
